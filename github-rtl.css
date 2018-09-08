@@ -290,6 +290,7 @@ code {
 
 .md-task-list-item > input {
   margin-right: -1.3em;
+  position: relative;
 }
 
 @media screen and (min-width: 914px) {
