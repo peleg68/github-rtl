@@ -272,6 +272,7 @@ tt {
     padding: 0;
     padding: 2px 4px 0px 4px;
     font-size: 0.9em;
+    direction: ltr
 }
 
 code {
