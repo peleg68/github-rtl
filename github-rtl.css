@@ -3,34 +3,34 @@
     --control-text-color: #777;
 }
 
-@include-when-export url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans Hebrew';
     font-style: normal;
     font-weight: normal;
-    src: local('Open Sans Regular'),url('./github/400.woff') format('woff')
+    src: local('Open Sans Hebrew Regular'),url('./github-rtl/OpenSansHebrew-Regular.ttf') format('ttf')
 }
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans Hebrew';
     font-style: italic;
     font-weight: normal;
-    src: local('Open Sans Italic'),url('./github/400i.woff') format('woff')
+    src: local('Open Sans Hebrew Italic'),url('./github-rtl/OpenSansHebrew-Italic.ttf') format('ttf')
 }
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans Hebrew';
     font-style: normal;
     font-weight: bold;
-    src: local('Open Sans Bold'),url('./github/700.woff') format('woff')
+    src: local('Open Sans Hebrew Bold'),url('./github-rtl/OpenSansHebrew-Bold.ttf') format('ttf')
 }
 
 @font-face {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans Hebrew';
     font-style: italic;
     font-weight: bold;
-    src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff')
+    src: local('Open Sans Hebrew Bold Italic'),url('./github-rtl/OpenSansHebrew-BoldItalic.ttf') format('ttf')
 }
 
 html {
@@ -38,7 +38,7 @@ html {
 }
 
 body {
-    font-family: "Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans Hebrew","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.6;
 }
