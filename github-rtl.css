@@ -411,3 +411,7 @@ header, .context-menu, .megamenu-content, footer{
 .html-for-mac .context-menu {
     --item-hover-bg-color: #E6F0FE;
 }
+
+.md-math-block {
+	direction: ltr;
+}
