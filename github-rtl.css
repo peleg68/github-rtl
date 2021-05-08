@@ -368,6 +368,21 @@ code {
     margin-top:20px;
     padding-bottom:20px;
 }
+.md-toc-h2 .md-toc-inner {
+    margin-right:2em
+}
+.md-toc-h3 .md-toc-inner {
+    margin-right:4em
+}
+.md-toc-h4 .md-toc-inner {
+    margin-right:6em
+}
+.md-toc-h5 .md-toc-inner {
+    margin-right:8em
+}
+.md-toc-h6 .md-toc-inner {
+    margin-right:10em
+}
 
 .sidebar-tabs {
     border-bottom: none;
